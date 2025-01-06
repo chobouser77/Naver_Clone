@@ -1,0 +1,129 @@
+@use "index" as *;
+
+.Header {
+  width: 1280px !important; height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  .top-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .top-icon-area {
+      display: flex;
+      .icon {
+        box-sizing: border-box;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 48px; height: 48px;
+        background-color: gray;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .paner {
+          padding: 12px ;
+          box-sizing: border-box;
+          // display: flex;
+          display: none;
+          position: absolute;
+          top: 90%;
+          border: 1px solid #03C75A;
+          border-radius: 30px;
+          background-color: white;
+          font-size: 14px;
+          text-wrap: nowrap;
+        }
+        &:hover {
+          background-color: #80808050;
+          .paner {
+            display: flex;
+          }
+        }
+      }
+    }    
+  }
+  .search-area {
+    box-sizing: border-box;
+    width: 706px; height: 60px;
+    padding: 17px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #03C75A;
+    border-radius: 30px;
+    .search-logo {
+      padding-left: 20px;
+      padding-right: 10px;
+      img {
+        width: 24px; height: 24px;
+        background-color: gray;
+      }
+    }
+    .search-input {
+      width: 100%; height: 100%; 
+      border: none; 
+      font-size: 24px;
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        border: none;
+      }    
+    }
+    .search-bt {
+      box-sizing: border-box;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      .icon {
+        width: 24px; height: 24px;
+        background-color: gray;
+      }
+      .more {
+        width: 15px; height: 15px;
+      }
+    }
+    &.sticky {
+      position: sticky;
+      justify-content: flex-start;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      padding: 17px 0;
+      padding-right: 430px;
+      gap: 10px;
+      .serch-logo {
+        padding: 0;
+      }      
+    }
+  }
+  .bottom-area {
+    display: flex; 
+    justify-content: space-between;
+    width: 650px;         
+    .function-bt {
+      box-sizing: border-box;
+      padding: 6px 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .bt-box {
+        width: 40px; height: 40px;
+        border-radius: 14px ;
+        background-color: gray;
+        box-shadow: 0 0 10px rgb(0, 0, 0 , 0.3);
+      }
+      p {
+        font-size: 14px;
+        color: black;
+      }
+    }
+    
+  }
+
+}
