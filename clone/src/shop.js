@@ -52,7 +52,7 @@ function Shop() {
           </a>
         </div>
         <div href='#' className="shop-right">
-          <a className="box 1">
+          <a href='#' className="box 1">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -61,7 +61,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 2">
+          <a href='#' className="box 2">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -70,7 +70,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 3">
+          <a href='#' className="box 3">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -79,7 +79,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 4">
+          <a href='#' className="box 4">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -88,7 +88,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 5">
+          <a href='#' className="box 5">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -97,7 +97,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 6">
+          <a href='#' className="box 6">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -106,7 +106,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 7">
+          <a href='#' className="box 7">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -115,7 +115,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 8">
+          <a href='#' className="box 8">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -124,7 +124,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 9">
+          <a href='#' className="box 9">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -133,7 +133,7 @@ function Shop() {
               <p>첫구매 할인</p>
             </div>
           </a>
-          <a className="box 10">
+          <a href='#' className="box 10">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
