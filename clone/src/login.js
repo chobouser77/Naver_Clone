@@ -7,15 +7,15 @@ function Login() {
         <p className="lo-t">
           네이버를 더 안전하고 편리하게 이용하세요
         </p>
-        <button>
+        <button className='log-bt'>
           로그인
         </button>
         <div className="bts">
-          <a href="javascript:void(0)">로그인</a>
+          <button>로그인</button>
           <p>|</p>
-          <a href="javascript:void(0)">비밀번호 찾기</a>
+          <button>비밀번호 찾기</button>
           <p>|</p>
-          <a href="javascript:void(0)">회원가입</a>
+          <button>회원가입</button>
         </div>
       </div>              
       <div className="ad2 frame">AD2</div>

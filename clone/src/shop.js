@@ -6,53 +6,53 @@ function Shop() {
     <div className='shop-1'>
         <div className="shop-left">
           <div className="left-t">
-            <a href="javascript:void(0)" className="">쿠팡</a>
+            <button className="a">쿠팡</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="semi">G마켓</a>
+            <button className="semi a">G마켓</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="">옥션</a>
+            <button className="a">옥션</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="">올리브영</a>            
-            <a href="javascript:void(0)" className="">11번가</a>
+            <button className="a">올리브영</button>            
+            <button className="a">11번가</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="semi">SSG닷컴</a>
+            <button className="semi">SSG닷컴</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="">GS SHOP</a>            
-            <a href="javascript:void(0)" className="">하프클럽</a>
+            <button className="a">GS SHOP</button>            
+            <button className="a">하프클럽</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="">CJ온스타일</a>
+            <button className="a">CJ온스타일</button>
             <p>*</p>
-            <a href="javascript:void(0)" className="semi">패션플러스</a>
+            <button className="a semi">패션플러스</button>
           </div>
           <div className="left-m">
-            <a href="javascript:void(0)" className=''>
+            <button className='a'>
               <div className="icon"></div>
               <div className="text">마이쇼핑</div>
-            </a>
-            <a href="javascript:void(0)" className=''>
+            </button>
+            <button className='a'>
               <div className="icon"></div>
               <div className="text">리뷰적립</div>
-            </a>
-            <a href="javascript:void(0)" className=''>
+            </button>
+            <button className='a'>
               <div className="icon"></div>
               <div className="text">주문</div>
-            </a>
-            <a href="javascript:void(0)" className=''>
+            </button>
+            <button className='a'>
               <div className="icon"></div>
               <div className="text">장바구니</div>
-            </a>
+            </button>
           </div>
-          <a href="javascript:void(0)" className="left-b">
+          <button className="left-b">
             <div className="b-t">
               <img src="/img/be02d0fb-d1a3-4600-bce2-9a747bda2c20.jpg" alt="d" />
             </div>
             <div className="b-b">
               10박스씩 쟁여둬요! 000특가
             </div>
-          </a>
+          </button>
         </div>
         <div className="shop-right">
-          <a href="javascript:void(0)" className="box 1">
+          <button className="box 1">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -60,8 +60,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 2">
+          </button>
+          <button className="box 2">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -69,8 +69,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 3">
+          </button>
+          <button className="box 3">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -78,8 +78,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 4">
+          </button>
+          <button className="box 4">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -87,8 +87,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 5">
+          </button>
+          <button className="box 5">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -96,8 +96,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 6">
+          </button>
+          <button className="box 6">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -105,8 +105,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 7">
+          </button>
+          <button className="box 7">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -114,8 +114,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 8">
+          </button>
+          <button className="box 8">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -123,8 +123,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 9">
+          </button>
+          <button className="box 9">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -132,8 +132,8 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
-          <a href="javascript:void(0)" className="box 10">
+          </button>
+          <button className="box 10">
             <div className="box-t">
               <img src="/img/cbad1eeb-fd1b-40de-9817-47c946e7ddb3.jpg" alt="rice" />
             </div>
@@ -141,7 +141,7 @@ function Shop() {
               <p>식단 100%할인</p>
               <p>첫구매 할인</p>
             </div>
-          </a>
+          </button>
         </div>
     </div>
     

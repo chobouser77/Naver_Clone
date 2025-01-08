@@ -231,7 +231,7 @@
             p {
               font-size: 5px;
             }
-            a {
+            .a {
               font-size: 13px;
               &.semi {
                 font-weight: 600;
@@ -246,7 +246,7 @@
             background-color: #F9FBFD;
             display: flex;
             justify-content: center;
-            a {
+            .a {
               width: 58px; height: 58px;
               display: flex;
               flex-direction: column;
@@ -397,7 +397,7 @@
         .lo-t {
           font-size: 15px;
         }
-        button {
+        button.log-bt {
           width: 100%;
           padding: 17px ;
           display: flex;
@@ -412,6 +412,7 @@
           display: flex;
           align-items: center;
           gap: 10px;
+          
           & * {            
             font-size:12px ;
           }
