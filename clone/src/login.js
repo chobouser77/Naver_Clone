@@ -11,11 +11,11 @@ function Login() {
           로그인
         </button>
         <div className="bts">
-          <a href="#">로그인</a>
+          <a href="javascript:void(0)">로그인</a>
           <p>|</p>
-          <a href="#">비밀번호 찾기</a>
+          <a href="javascript:void(0)">비밀번호 찾기</a>
           <p>|</p>
-          <a href="#">회원가입</a>
+          <a href="javascript:void(0)">회원가입</a>
         </div>
       </div>              
       <div className="ad2 frame">AD2</div>
