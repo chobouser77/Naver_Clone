@@ -1,6 +1,26 @@
-import React from 'react';
+import React , {useRef , useEffect} from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// import { Pagination , Navigation } from 'swiper';
+import {  Navigation } from 'swiper/modules';
+
 
 function Login() {
+  const swiperRef = useRef(null);  
+  const prevRef = useRef(null);    
+  const nextRef = useRef(null);
+
+  useEffect(() => {
+    // Swiper 인스턴스를 swiperRef로부터 가져오고 외부 버튼을 연결
+    if (swiperRef.current) {
+      swiperRef.current.swiper.params.navigation.prevEl = prevRef.current;
+      swiperRef.current.swiper.params.navigation.nextEl = nextRef.current;
+      swiperRef.current.swiper.update();  // 설정을 업데이트
+    }
+  }, []);
+
   return (    
     <div className='login'>
       <div className="naver-login frame">
@@ -27,18 +47,77 @@ function Login() {
       </div>
       <div className="ad4 frame">
           ad4
-        </div>
-        <div className="ad5 frame">
-          <div className="ad5-left">
+      </div>
+      <div className="ad5 frame">
+        <div className="ad5-left">
             <p>
               많이<br/>
               찾는 쇼핑<br/>
               아이템은?
             </p>
             <div className="">AD</div>
-          </div>
-          <div className="ad5-right"></div>
         </div>
+        <div className="ad5-right">
+          <Swiper
+            ref={swiperRef}
+            slidesPerView={3}
+            spaceBetween={12}
+            // navigation={
+            //   // true
+            //   {
+            //     prevEl: prevRef.current, 
+            //     nextEl: nextRef.current,
+            //   }
+            // }
+            // pagination={{
+            //   clickable: true,
+            // }}
+            // modules={[Pagination , Navigation]}
+            modules={[ Navigation]}
+            className="mySwiper"
+          >
+            <SwiperSlide className='slide'>
+              <div className="img-box">
+                <img src="/img/download.jpg" alt="스와이퍼 임시이미지" />
+              </div>              
+              <p>리본 네일 스티</p>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+              <div className="img-box">
+                  <img src="/img/download.jpg" alt="스와이퍼 임시이미지" />
+                </div>              
+                <p>리본 네일 스티</p>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+              <div className="img-box">
+                  <img src="/img/download.jpg" alt="스와이퍼 임시이미지" />
+                </div>              
+                <p>리본 네일 스티</p>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+              <div className="img-box">
+                  <img src="/img/download.jpg" alt="스와이퍼 임시이미지" />
+                </div>              
+                <p>리본 네일 스티</p>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+              <div className="img-box">
+                  <img src="/img/download.jpg" alt="스와이퍼 임시이미지" />
+                </div>              
+                <p>리본 네일 스티</p>
+            </SwiperSlide>           
+          </Swiper>
+          <div ref={prevRef} className="swiper-button-prev"></div>
+          <div ref={nextRef} className="swiper-button-next"></div>
+        </div>
+      </div>
+      <div className="weather frame">
+        <div className="weather-title">날씨</div>
+        <div className="weather-in">
+          <div className="weather-in-1"></div>
+          <div className="weather-in-2"></div>
+        </div>
+      </div>
     </div>             
   );
 }
