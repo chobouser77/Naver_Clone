@@ -77,6 +77,7 @@ function Header() {
       </div>
       <div className={`search-area ${hasClass ? "sticky" : ""}`}>
         <div className="search-logo">
+          <div className="av"></div>
           {/* <img src="" alt="" /> */}
         </div>
         <input type="text" className="search-input" onFocus={handleFocus} onChange={handleInput} placeholder={placeholderText}  />
